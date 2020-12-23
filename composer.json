@@ -1,0 +1,19 @@
+{
+    "authors": [
+        {
+        "name": "Esteban Luis",
+        "email": "blue_fire@hotmail.es"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "php-pagination/php-pagination": "^2.0",
+        "stefangabos/zebra_pagination": "dev-master",
+        "phpmailer/phpmailer": "^6.1"
+    }
+}
